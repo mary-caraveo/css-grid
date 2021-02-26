@@ -1,0 +1,126 @@
+/* Grid line-height start*/
+.container-start {
+  background: rgb(156, 80, 255);
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.container-one {
+  text-align: left;
+}
+
+.element-one-line-height,
+.element-two-line-height,
+.element-three-line-height {
+  background: rgb(236, 21, 255);
+  display: inline-block;
+}
+
+.container-two {
+  text-align: center;
+}
+
+.element-four-line-height,
+.element-five-line-height,
+.element-six-line-height {
+  background: rgb(255, 69, 23);
+  display: inline-block;
+}
+
+.container-three {
+  text-align: right;
+}
+
+.element-seven-line-height,
+.element-eight-line-height,
+.element-nine-line-height {
+  background: rgb(58, 77, 255);
+  display: inline-block;
+}
+
+/* Grid line-height end*/
+.container {
+  background: rgb(171, 64, 180);
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.container-one-line {
+  text-align: left;
+  line-height: 180px;
+}
+
+.element-one-line {
+  background: rgb(45, 208, 236);
+  display: inline-block;
+  line-height: 45px;
+  vertical-align: top;
+}
+
+.element-two-line {
+  background: rgb(45, 208, 236);
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.element-three-line {
+  background: rgb(45, 208, 236);
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: bottom;
+}
+
+.container-two-line {
+  text-align: center;
+  line-height: 180px;
+}
+
+.element-four-line {
+  background: rgb(253, 113, 19);
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+.element-five-line {
+  background: rgb(253, 113, 19);
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: baseline;
+}
+
+.element-six-line {
+  background: rgb(253, 113, 19);
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: bottom;
+}
+
+.container-three-line {
+  text-align: right;
+  line-height: 180px;
+}
+
+.element-seven-line {
+  background: rgb(243, 24, 126);
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+.element-eight-line {
+  background: rgb(243, 24, 126);
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.element-nine-line {
+  background: rgb(243, 24, 126);
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: bottom;
+}

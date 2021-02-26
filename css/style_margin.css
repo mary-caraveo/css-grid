@@ -1,17 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+.title {
+  background: rgb(255, 71, 71);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+}
 
-.wrapper {
+/* Grid margin start */
+.wrapper-start {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
   font-family: "Lato", sans-serif;
   width: 550px;
+  color: white;
+  float: left;
+  padding-left: 5%;
 }
 
-.container {
-  background: turquoise;
+.container-margin-start {
+  background: rgb(224, 160, 64);
   width: 180px;
   height: 180px;
+  border-radius: 10px;
 }
 
 .element {
@@ -20,58 +31,86 @@
   text-align: center;
   padding-top: 10px;
   box-sizing: border-box;
+  border-radius: 10px;
 }
 
-.element1 {
-  @extend .element;
-  background: papayawhip;
+.element-one-margin-start,
+.element-two-margin-start,
+.element-three-margin-start {
+  background: rgb(248, 15, 170);
+}
+
+.element-four-margin-start,
+.element-five-margin-start,
+.element-six-margin-start {
+  background: rgb(47, 230, 87);
+}
+
+.element-seven-margin-start,
+.element-eight-margin-start,
+.element-nine-margin-start {
+  background: rgb(28, 235, 235);
+}
+
+/* Grid margin end */
+.wrapper-end {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  font-family: "Lato", sans-serif;
+  width: 550px;
+  padding-left: 5%;
+  color: white;
+}
+
+.container-margin-end {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.element-one-margin {
+  background: rgb(144, 60, 255);
   margin: 0;
 }
 
-.element2 {
-  @extend .element;
-  background: papayawhip;
+.element-two-margin {
+  background: rgb(144, 60, 255);
   margin: 60px 0;
 }
 
-.element3 {
-  @extend .element;
-  background: papayawhip;
+.element-three-margin {
+  background: rgb(144, 60, 255);
   margin: 120px 0;
 }
 
-.element4 {
-  @extend .element;
-  background: pink;
+.element-four-margin {
+  background: rgb(180, 11, 39);
   margin: 0 auto;
 }
 
-.element5 {
-  @extend .element;
-  background: pink;
+.element-five-margin {
+  background: rgb(180, 11, 39);
   margin: 60px auto;
 }
 
-.element6 {
-  @extend .element;
-  background: pink;
+.element-six-margin {
+  background: rgb(180, 11, 39);
   margin: 120px auto;
 }
 
-.element7 {
-  @extend .element;
-  background: lightcyan;
+.element-seven-margin {
+  background: rgb(253, 228, 4);
   margin: 0 0 0 auto;
 }
 
-.element8 {
-  @extend .element;
-  background: lightcyan;
+.element-eight-margin {
+  background: rgb(253, 228, 4);
   margin: 60px 0 0 auto;
 }
 
-.element9 {
-  @extend .element;
-  background: lightcyan;
+.element-nine-margin {
+  background: rgb(253, 228, 4);
   margin: 120px 0 0 auto;
 }
