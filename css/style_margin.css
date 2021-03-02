@@ -6,6 +6,27 @@
   font-size: 20px;
 }
 
+.button_submit {
+  background-color: tomato;
+  width: 250px;
+  height: 50px;
+  outline: none;
+  border-radius: 20px;
+  border: none;
+  float: left;
+  margin: 5%;
+  color: white;
+  font-size: medium;
+}
+
+.button_submit:hover {
+  color: black;
+  background-color: #34ffb1;
+  transition: color 0.2s 0.05s ease;
+  transition: background-color 0.2s 0.05s ease;
+  cursor: pointer;
+}
+
 /* Grid margin start */
 .wrapper-start {
   display: grid;
