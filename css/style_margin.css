@@ -6,22 +6,29 @@
   font-size: 20px;
 }
 
+.container_menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 30px;
+  margin: 0 10%;
+}
+
 .button_submit {
-  background-color: tomato;
+  background-color: rgb(241, 59, 135);
   width: 250px;
   height: 50px;
   outline: none;
   border-radius: 20px;
   border: none;
   float: left;
-  margin: 5%;
   color: white;
   font-size: medium;
+  box-shadow: 5px 10px 18px red;
 }
 
 .button_submit:hover {
-  color: black;
-  background-color: #34ffb1;
+  background-color: #ff2929;
   transition: color 0.2s 0.05s ease;
   transition: background-color 0.2s 0.05s ease;
   cursor: pointer;

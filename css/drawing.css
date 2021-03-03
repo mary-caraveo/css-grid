@@ -11,6 +11,7 @@
 
 body {
   margin: 0;
+  background: coral;
 }
 
 .container {
@@ -28,6 +29,7 @@ body {
   height: 250px;
   width: 250px;
   border-radius: 20px;
+  box-shadow: 5px 10px 18px red;
 }
 
 .head {
