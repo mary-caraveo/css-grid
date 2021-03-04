@@ -1,0 +1,21 @@
+.container {
+  background: purple;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  border-radius: 10px;
+}
+
+.item {
+  background: tomato;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  border-radius: 10px;
+}
+
+.sub-item {
+  background: turquoise;
+  border-radius: 10px;
+}
