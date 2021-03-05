@@ -1,0 +1,16 @@
+.container {
+  height: 200px;
+  width: 200px;
+  background: tomato;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  margin-left: 20%;
+}
+
+.item {
+  height: 100px;
+  width: 100px;
+  background: turquoise;
+  border-radius: 50%;
+}
