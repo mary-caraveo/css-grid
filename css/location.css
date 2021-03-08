@@ -1,0 +1,94 @@
+body {
+  background: rgb(255, 217, 182);
+}
+.container {
+  background: khaki;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 200px;
+  margin-left: 40px;
+  float: left;
+  margin: 0 60px 0 40px;
+  text-align: center;
+}
+
+.item {
+  background: hotpink;
+  width: 100px;
+  height: 100px;
+}
+
+/* ---- */
+.container_new {
+  background: purple;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "card-1 card-2"
+    "card-1 card-3";
+  width: 100vh;
+  height: 30vh;
+  text-align: center;
+}
+
+.item_1 {
+  background: hotpink;
+  grid-area: card-1;
+}
+
+.item_2 {
+  background: rgb(245, 255, 105);
+  grid-area: card-2;
+}
+
+.item_3 {
+  background: rgb(105, 213, 255);
+  grid-area: card-3;
+}
+/* ---- */
+.container_two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "card1 card2"
+    "card1 card3";
+  width: 400px;
+  height: 400px;
+  float: left;
+  margin: 0 60px 0 40px;
+}
+
+.item-one {
+  background-image: url("../src/orange.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  grid-area: card1;
+}
+
+.item-two {
+  background-image: url("../src/pink.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  grid-area: card2;
+}
+
+.item-three {
+  background-image: url("../src/heart.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  grid-area: card3;
+}
+
+/* ---- */
+.container_three {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "card1 card2"
+    "card3 card3";
+  width: 400px;
+  height: 400px;
+}
