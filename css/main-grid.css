@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+:root {
+  --orange: #fd741e;
+  --yellow: #efc66a;
+  --pink: #f34f63;
+  --dark-pink: #c24d8d;
+  --purple: #7f5696;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(
+    to right top,
+    #ff7a00,
+    #ff6226,
+    #fe4a3b,
+    #f7304d,
+    #eb125d
+  );
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+  height: 100vh;
+}
+
+.item-one {
+  background: var(--yellow);
+  grid-column: 1;
+  grid-row: 5 / 7;
+}
+
+.item-two {
+  background: var(--purple);
+  grid-column: 1 / 4;
+  grid-row: 7 / 9;
+}
+
+.item-three {
+  background: var(--yellow);
+  grid-column: 1;
+  grid-row: 9 / 10;
+}
+
+.item-four {
+  background: var(--orange);
+  grid-column: 3;
+  grid-row: 3 / 4;
+}
+
+.item-five {
+  background: var(--orange);
+  grid-column: 5 / 8;
+  grid-row: 6 / 11;
+}
+
+.item-six {
+  border: 6px solid var(--orange);
+  grid-column: 6 / 9;
+  grid-row: 5 / 8;
+}
+
+.item-seven {
+  border: 6px solid var(--orange);
+  grid-column: 7 / 10;
+  grid-row: 3 / 9;
+}
+
+.item-eight {
+  grid-column: 3;
+  grid-row: 2 / 4;
+  font-size: 42px;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  text-align: right;
+}
+
+.item-nine {
+  grid-column: 6 / 9;
+  grid-row: 3 / 5;
+  font-size: 62px;
+  text-align: center;
+  margin: auto;
+}
