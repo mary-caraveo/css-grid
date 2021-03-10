@@ -1,0 +1,25 @@
+.title {
+  background: rgb(255, 71, 71);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.container {
+  background: papayawhip;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100px;
+  height: 100px;
+  margin: 50px 100px;
+}
+
+.item:nth-child(1) {
+  background: hotpink;
+  align-self: start;
+}
+
+.item:not(:nth-child(1)) {
+  background: turquoise;
+}
