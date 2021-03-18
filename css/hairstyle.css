@@ -1,0 +1,126 @@
+:root {
+  --skin: #f6c09c;
+  --background: #ed4042;
+  --red: #ed2860;
+  --dark-red: #680524;
+  --black: #00243a;
+  --white: #fff;
+  --skin-small-ear: #ba6936;
+  --skin-neck: #d19471;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.head {
+  width: 200px;
+  height: 500px;
+  background: var(--skin);
+  border-radius: 100px;
+  position: relative;
+}
+
+.hair {
+  width: 220px;
+  height: 100px;
+  background: var(--background);
+  position: absolute;
+  top: -10px;
+  left: 25px;
+  border-radius: 60px 0 60px 60px;
+}
+
+.eyebrow-left {
+  width: 32px;
+  height: 15px;
+  background: var(--background);
+  position: absolute;
+  top: 120px;
+  left: 15px;
+  border-radius: 10px;
+}
+
+.eyebrow-right {
+  width: 32px;
+  height: 15px;
+  background: var(--background);
+  position: absolute;
+  top: 120px;
+  left: 145px;
+  border-radius: 10px;
+}
+
+.eye-left {
+  width: 8px;
+  height: 15px;
+  background: var(--black);
+  position: absolute;
+  top: 140px;
+  left: 30px;
+  border-radius: 10px;
+}
+
+.eye-right {
+  width: 8px;
+  height: 15px;
+  background: var(--black);
+  position: absolute;
+  top: 140px;
+  left: 160px;
+  border-radius: 10px;
+}
+
+.beard {
+  width: 200px;
+  height: 50%;
+  background: var(--background);
+  position: absolute;
+  top: 165px;
+  left: 0;
+  border-radius: 50px 50px 120px 120px;
+}
+
+.nose {
+  width: 60px;
+  height: 60px;
+  background: var(--skin-neck);
+  position: absolute;
+  top: -30px;
+  left: 70px;
+  border-radius: 50%;
+}
+
+.mouth {
+  clip-path: ellipse(50% at 50% 50%);
+  width: 80px;
+  height: 80px;
+  background: var(--dark-red);
+  position: absolute;
+  top: 35px;
+  left: 65px;
+  border-radius: 0 0 50% 50%;
+}
+
+.tooth {
+  width: 80px;
+  height: 15px;
+  background: var(--white);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.tongue {
+  -webkit-clip-path: ellipse(60% 65% at 60% 80%);
+  width: 50px;
+  height: 50px;
+  background: var(--red);
+  position: absolute;
+  top: 20px;
+  left: 0;
+  transform: rotate(90deg);
+}
