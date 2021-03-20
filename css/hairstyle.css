@@ -8,17 +8,43 @@
   --skin-small-ear: #ba6936;
   --skin-neck: #d19471;
 }
+body {
+  margin: 0;
+}
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: #d19471;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(16, 216, 149);
+  clip-path: circle(50%);
+  border-radius: 20px;
+  position: relative;
+  width: 590px;
+  height: 590px;
+}
+
+.body {
+  clip-path: circle(50% at 50% 50%);
+  background: #680524;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 370px;
+  transform: rotate(180deg);
 }
 
 .head {
   width: 200px;
-  height: 500px;
+  height: 480px;
   background: var(--skin);
   border-radius: 100px;
   position: relative;
@@ -76,7 +102,7 @@
 
 .beard {
   width: 200px;
-  height: 50%;
+  height: 53%;
   background: var(--background);
   position: absolute;
   top: 165px;
@@ -115,7 +141,7 @@
 }
 
 .tongue {
-  -webkit-clip-path: ellipse(60% 65% at 60% 80%);
+  clip-path: circle(50%);
   width: 50px;
   height: 50px;
   background: var(--red);
