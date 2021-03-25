@@ -1,17 +1,20 @@
 :root {
-  --skin: #f6c09c;
-  --background: #ed4042;
-  --red: #ed2860;
-  --dark-red: #680524;
-  --black: #00243a;
-  --white: #fff;
-  --skin-small-ear: #ba6936;
-  --skin-neck: #d19471;
+  --skin: #fdb48b;
+  --hair: #f5350a;
+  --eyebrow: #f83f0a;
+  --mouth: #70001b;
+  --tongue: #de013d;
+  --eye: #00243a;
+  --tooth: #fff;
+  --ear: #f2735f;
+  --body: #af0170;
+  --square: #630a62;
+  --skin-nose: #d19471;
 }
 
 body {
   margin: 0;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .container {
@@ -26,7 +29,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(16, 216, 149);
+  background: var(--square);
   clip-path: circle(50%);
   border-radius: 20px;
   position: relative;
@@ -36,7 +39,7 @@ body {
 
 .body {
   clip-path: circle(50% at 50% 50%);
-  background: #680524;
+  background: var(--body);
   position: absolute;
   width: 400px;
   height: 400px;
@@ -50,145 +53,160 @@ body {
   background: var(--skin);
   border-radius: 100px;
   position: relative;
+  box-shadow: 0px 0px 3px 1px var(--skin);
 }
 
 .ear_right {
   width: 40px;
   height: 40px;
-  background: var(--skin);
+  background: var(--ear);
   position: absolute;
   top: 210px;
   left: 398px;
   border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px var(--ear);
 }
 
 .ear_left {
   width: 40px;
   height: 40px;
-  background: var(--skin);
+  background: var(--ear);
   position: absolute;
   top: 210px;
   left: 190px;
   border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px var(--ear);
 }
 
 .hair_left {
   width: 30px;
   height: 80px;
-  background: var(--skin-small-ear);
+  background: var(--hair);
   position: absolute;
   top: 30px;
   left: 0;
   border-radius: 400px 0 400px 0;
+  box-shadow: 0px 0px 2px 2px red;
 }
 
 .hair_right {
   width: 30px;
   height: 80px;
-  background: var(--skin-small-ear);
+  background: var(--hair);
   position: absolute;
   top: 30px;
   left: 170px;
   border-radius: 0 400px 0 400px;
+  box-shadow: 0px 1px 2px red;
 }
 
 .hair {
   width: 240px;
   height: 120px;
-  background: var(--background);
+  background: var(--hair);
   position: absolute;
   top: -30px;
   left: 15px;
   border-radius: 60px 0 60px 60px;
+  box-shadow: 0px 0px 5px 1px red;
 }
 
 .eyebrow-left {
   width: 32px;
   height: 15px;
-  background: var(--background);
+  background: var(--eyebrow);
   position: absolute;
-  top: 110px;
+  top: 112px;
   left: 15px;
   border-radius: 10px;
+  box-shadow: 0px 0px 2px 1px red;
 }
 
 .eyebrow-right {
   width: 32px;
   height: 15px;
-  background: var(--background);
+  background: var(--eyebrow);
   position: absolute;
-  top: 110px;
+  top: 112px;
   left: 146px;
   border-radius: 10px;
+  box-shadow: 0px 0px 2px 1px red;
 }
 
 .eye-left {
   width: 8px;
   height: 15px;
-  background: var(--black);
+  background: var(--eye);
   position: absolute;
   top: 140px;
   left: 30px;
   border-radius: 10px;
+  box-shadow: 0px 0px 2px 1px var(--skin-nose);
 }
 
 .eye-right {
   width: 8px;
   height: 15px;
-  background: var(--black);
+  background: var(--eye);
   position: absolute;
   top: 140px;
   left: 160px;
   border-radius: 10px;
+  box-shadow: 0px 0px 2px 1px var(--skin-nose);
 }
 
 .beard {
   width: 200px;
   height: 53%;
-  background: var(--background);
+  background: var(--hair);
   position: absolute;
   top: 165px;
   left: 0;
   border-radius: 50px 50px 120px 120px;
+  box-shadow: 0px 0px 2px 1px red;
 }
 
 .nose {
   width: 60px;
   height: 60px;
-  background: var(--skin-neck);
+  background: var(--skin);
   position: absolute;
   top: -30px;
   left: 70px;
   border-radius: 50%;
+  box-shadow: 0px 2px 5px 0.5px var(--skin-nose);
 }
 
 .mouth {
   clip-path: ellipse(50% at 50% 50%);
   width: 80px;
   height: 80px;
-  background: var(--dark-red);
+  background: var(--mouth);
   position: absolute;
-  top: 35px;
+  top: 45px;
   left: 65px;
   border-radius: 0 0 50% 50%;
+  box-shadow: 0px 0px 5px 1px red;
 }
 
 .tooth {
   width: 80px;
   height: 15px;
-  background: var(--white);
+  background: var(--tooth);
   position: absolute;
   top: 0;
   left: 0;
+  box-shadow: 0px 0px 2px 0.5px rgb(255, 255, 255);
 }
 
 .tongue {
   width: 40px;
   height: 50px;
-  background: var(--red);
+  background: var(--tongue);
   position: absolute;
   top: 25px;
-  left: 3px;
+  left: 3.6px;
   transform: rotate(155.5deg);
   border-radius: 90% 60% 60% 90% / 80% 80% 60% 60%;
+  box-shadow: 0px 0px 2px 1px #91163d;
 }
