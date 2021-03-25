@@ -8,8 +8,10 @@
   --skin-small-ear: #ba6936;
   --skin-neck: #d19471;
 }
+
 body {
   margin: 0;
+  /* overflow: hidden; */
 }
 
 .container {
@@ -28,8 +30,8 @@ body {
   clip-path: circle(50%);
   border-radius: 20px;
   position: relative;
-  width: 590px;
-  height: 590px;
+  width: 630px;
+  height: 630px;
 }
 
 .body {
@@ -50,13 +52,53 @@ body {
   position: relative;
 }
 
+.ear_right {
+  width: 40px;
+  height: 40px;
+  background: var(--skin);
+  position: absolute;
+  top: 210px;
+  left: 398px;
+  border-radius: 50%;
+}
+
+.ear_left {
+  width: 40px;
+  height: 40px;
+  background: var(--skin);
+  position: absolute;
+  top: 210px;
+  left: 190px;
+  border-radius: 50%;
+}
+
+.hair_left {
+  width: 30px;
+  height: 80px;
+  background: var(--skin-small-ear);
+  position: absolute;
+  top: 30px;
+  left: 0;
+  border-radius: 400px 0 400px 0;
+}
+
+.hair_right {
+  width: 30px;
+  height: 80px;
+  background: var(--skin-small-ear);
+  position: absolute;
+  top: 30px;
+  left: 170px;
+  border-radius: 0 400px 0 400px;
+}
+
 .hair {
-  width: 220px;
-  height: 100px;
+  width: 240px;
+  height: 120px;
   background: var(--background);
   position: absolute;
-  top: -10px;
-  left: 25px;
+  top: -30px;
+  left: 15px;
   border-radius: 60px 0 60px 60px;
 }
 
@@ -65,7 +107,7 @@ body {
   height: 15px;
   background: var(--background);
   position: absolute;
-  top: 120px;
+  top: 110px;
   left: 15px;
   border-radius: 10px;
 }
@@ -75,8 +117,8 @@ body {
   height: 15px;
   background: var(--background);
   position: absolute;
-  top: 120px;
-  left: 145px;
+  top: 110px;
+  left: 146px;
   border-radius: 10px;
 }
 
@@ -141,12 +183,12 @@ body {
 }
 
 .tongue {
-  clip-path: circle(50%);
-  width: 50px;
+  width: 40px;
   height: 50px;
   background: var(--red);
   position: absolute;
-  top: 20px;
-  left: 0;
-  transform: rotate(90deg);
+  top: 25px;
+  left: 3px;
+  transform: rotate(155.5deg);
+  border-radius: 90% 60% 60% 90% / 80% 80% 60% 60%;
 }
