@@ -1,3 +1,10 @@
+.container_main {
+  padding-top: 75px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 100px;
+}
 /* table cell start */
 .element {
   width: 60px;
