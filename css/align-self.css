@@ -1,13 +1,19 @@
 .container {
+  padding-top: 75px;
+  text-align: center;
+}
+
+.items {
   background: papayawhip;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 100px;
-  height: 100px;
-  margin: 50px 100px;
+  width: 300px;
+  height: 300px;
+  margin: 0 100px;
 }
 
 .item:nth-child(1) {
+  height: 50px;
   background: hotpink;
   align-self: start;
 }

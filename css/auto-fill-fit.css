@@ -1,5 +1,7 @@
 .grid-container {
   display: grid;
+  padding-top: 75px;
+  margin: 0 2em;
 }
 
 .grid-container--fill {
@@ -17,9 +19,9 @@
   border: 1px solid #fff;
 }
 
-body {
+/* body {
   padding: 0 2em 2em 2em;
-}
+} */
 
 hr {
   margin: 80px;

@@ -36,7 +36,7 @@
   width: 400px;
   color: white;
   float: left;
-  padding: 0 5% 3% 5%;
+  padding: 75px 5% 3% 5%;
 }
 
 .container-margin-start {
@@ -80,7 +80,7 @@
   grid-gap: 5px;
   font-family: "Lato", sans-serif;
   width: 550px;
-  padding-left: 5%;
+  padding: 75px 0 0 5%;
   color: white;
 }
 
