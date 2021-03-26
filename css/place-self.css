@@ -24,3 +24,10 @@
 .item:not(:nth-child(1)) {
   background: turquoise;
 }
+
+@media (max-width: 575.98px) {
+  .items {
+    width: 400px;
+    margin: 0 10px;
+  }
+}
