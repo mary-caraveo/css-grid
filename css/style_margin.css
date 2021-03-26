@@ -3,7 +3,6 @@
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   gap: 30px;
-  margin: 0 10%;
   padding-top: 75px;
 }
 
@@ -33,10 +32,10 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
   font-family: "Lato", sans-serif;
-  width: 400px;
   color: white;
   float: left;
-  padding: 75px 5% 3% 5%;
+  padding-top: 75px;
+  margin: 0 4%;
 }
 
 .container-margin-start {
@@ -79,9 +78,10 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
   font-family: "Lato", sans-serif;
-  width: 550px;
-  padding: 75px 0 0 5%;
+  padding-top: 75px;
+  float: left;
   color: white;
+  margin: 0 4%;
 }
 
 .container-margin-end {

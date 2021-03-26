@@ -1,4 +1,9 @@
 .container {
+  padding: 75px;
+  text-align: center;
+}
+
+.container_item {
   background: purple;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
