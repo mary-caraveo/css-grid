@@ -1,18 +1,12 @@
-.title {
-  background: rgb(255, 71, 71);
-  color: white;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 20px;
-}
-
 .container {
   background: papayawhip;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 100px;
   height: 100px;
-  margin: 50px 100px;
+  margin: 0 100px;
+  /* padding-top: 350px;
+  justify-items: center; */
 }
 
 .item:nth-child(1) {

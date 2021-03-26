@@ -1,21 +1,19 @@
-.title {
-  background: rgb(255, 71, 71);
-  color: white;
-  border-radius: 10px;
+.container {
+  padding-top: 75px;
   text-align: center;
-  font-size: 20px;
 }
 
-.container {
-  background: papayawhip;
+.items {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 100px;
-  height: 100px;
-  margin: 50px 100px;
+  background: papayawhip;
+  width: 300px;
+  height: 300px;
+  margin: 0 100px;
 }
 
 .item:nth-child(1) {
+  width: 50px;
   background: hotpink;
   justify-self: start;
 }

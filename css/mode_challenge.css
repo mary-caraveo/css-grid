@@ -1,9 +1,6 @@
-.title {
-  background: rgb(255, 71, 71);
-  color: white;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 20px;
+.container {
+  padding-top: 75px;
+  margin: 15px;
 }
 
 .card {
