@@ -135,3 +135,18 @@
   top: 100%;
   transform: translate(-100%, -100%);
 }
+
+@media (max-width: 575.98px) {
+  .wrapper {
+    justify-content: center;
+    justify-items: center;
+    font-size: 14px;
+    margin: 0 10px;
+    width: min-content;
+  }
+  .container-position,
+  .container-position-end {
+    width: 100px;
+    height: 100px;
+  }
+}
