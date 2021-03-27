@@ -127,3 +127,10 @@
   text-align: right;
   vertical-align: bottom;
 }
+
+@media (max-width: 575.98px) {
+  .container_main {
+    display: block;
+    margin: 0;
+  }
+}
