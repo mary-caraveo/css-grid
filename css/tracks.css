@@ -5,9 +5,9 @@
   /* grid-auto-flow: column; */
   /* grid-template-rows: 90px 90px; */
   grid-auto-rows: 60px;
-  margin: 0 80px;
   gap: 10px;
   padding-top: 75px;
+  justify-content: center;
 }
 
 .item-a {

@@ -124,3 +124,17 @@
   line-height: 20px;
   vertical-align: bottom;
 }
+
+@media (max-width: 575.98px) {
+  .container,
+  .container-start {
+    width: 100px;
+    height: 100px;
+  }
+
+  .container-one-line,
+  .container-two-line,
+  .container-three-line {
+    line-height: 100px;
+  }
+}
