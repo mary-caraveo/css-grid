@@ -5,6 +5,9 @@
   padding-top: 75px;
   margin: 0 10%;
 }
+.wrapper-content {
+  justify-content: center;
+}
 
 .button_submit {
   background: #f12b6b;

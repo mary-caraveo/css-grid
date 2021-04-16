@@ -24,3 +24,9 @@
   background: turquoise;
   border-radius: 10px;
 }
+
+@media (max-width: 575.98px) {
+  .container {
+    padding: 75px 15px 0 15px;
+  }
+}
