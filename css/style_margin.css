@@ -1,9 +1,10 @@
 .container_menu {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 25px;
   padding-top: 75px;
-  margin: 0 10%;
+  margin: 0 100px;
+  justify-items: center;
 }
 .wrapper-content {
   justify-content: center;
@@ -201,7 +202,6 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
   .container_menu {
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
     margin: 0 20px;
     justify-items: center;
   }
@@ -214,7 +214,6 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .container_menu {
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
     margin: 0 30px;
     justify-items: center;
   }
