@@ -11,7 +11,7 @@
 }
 
 .button_submit {
-  background: #f12b6b;
+  background: #9b3675;
   width: 250px;
   height: 50px;
   outline: none;
@@ -20,11 +20,11 @@
   float: left;
   color: white;
   font-size: 16px;
-  box-shadow: 5px 10px 18px red;
+  box-shadow: 5px 10px 18px #822659;
 }
 
 .button_submit:hover {
-  background-color: #ff2929;
+  background-color: #e36bae;
   transition: color 0.2s 0.05s ease;
   cursor: pointer;
 }
