@@ -1,8 +1,8 @@
 /* Grid line-height start*/
 .container-start {
-  background: rgb(156, 80, 255);
-  width: 180px;
-  height: 180px;
+  background: #ffce89;
+  width: 160px;
+  height: 160px;
   border-radius: 10px;
 }
 
@@ -13,7 +13,7 @@
 .element-one-line-height,
 .element-two-line-height,
 .element-three-line-height {
-  background: rgb(236, 21, 255);
+  background: #cc0e74;
   display: inline-block;
 }
 
@@ -24,7 +24,7 @@
 .element-four-line-height,
 .element-five-line-height,
 .element-six-line-height {
-  background: rgb(255, 69, 23);
+  background: #f05454;
   display: inline-block;
 }
 
@@ -35,39 +35,39 @@
 .element-seven-line-height,
 .element-eight-line-height,
 .element-nine-line-height {
-  background: rgb(58, 77, 255);
+  background: #794c74;
   display: inline-block;
 }
 
 /* Grid line-height end*/
 .container {
-  background: rgb(171, 64, 180);
-  width: 180px;
-  height: 180px;
+  background: #e05297;
+  width: 160px;
+  height: 160px;
   border-radius: 10px;
 }
 
 .container-one-line {
   text-align: left;
-  line-height: 180px;
+  line-height: 160px;
 }
 
 .element-one-line {
-  background: rgb(45, 208, 236);
+  background: #ff4b5c;
   display: inline-block;
   line-height: 45px;
   vertical-align: top;
 }
 
 .element-two-line {
-  background: rgb(45, 208, 236);
+  background: #ff4b5c;
   display: inline-block;
   line-height: 20px;
   vertical-align: middle;
 }
 
 .element-three-line {
-  background: rgb(45, 208, 236);
+  background: #ff4b5c;
   display: inline-block;
   line-height: 20px;
   vertical-align: bottom;
@@ -75,25 +75,25 @@
 
 .container-two-line {
   text-align: center;
-  line-height: 180px;
+  line-height: 160px;
 }
 
 .element-four-line {
-  background: rgb(253, 113, 19);
+  background: #cf7500;
   display: inline-block;
   line-height: 20px;
   vertical-align: top;
 }
 
 .element-five-line {
-  background: rgb(253, 113, 19);
+  background: #cf7500;
   display: inline-block;
   line-height: 20px;
   vertical-align: baseline;
 }
 
 .element-six-line {
-  background: rgb(253, 113, 19);
+  background: #cf7500;
   display: inline-block;
   line-height: 20px;
   vertical-align: bottom;
@@ -101,25 +101,25 @@
 
 .container-three-line {
   text-align: right;
-  line-height: 180px;
+  line-height: 160px;
 }
 
 .element-seven-line {
-  background: rgb(243, 24, 126);
+  background: #821752;
   display: inline-block;
   line-height: 20px;
   vertical-align: top;
 }
 
 .element-eight-line {
-  background: rgb(243, 24, 126);
+  background: #821752;
   display: inline-block;
   line-height: 20px;
   vertical-align: middle;
 }
 
 .element-nine-line {
-  background: rgb(243, 24, 126);
+  background: #821752;
   display: inline-block;
   line-height: 20px;
   vertical-align: bottom;
@@ -136,5 +136,69 @@
   .container-two-line,
   .container-three-line {
     line-height: 100px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .wrapper-start,
+  .wrapper-end {
+    margin: 0 100px;
+  }
+
+  .container-start,
+  .container {
+    width: 140px;
+    height: 140px;
+  }
+
+  .container-one-line,
+  .container-two-line,
+  .container-three-line {
+    line-height: 140px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container-start,
+  .container {
+    width: 160px;
+    height: 160px;
+  }
+
+  .wrapper-start,
+  .wrapper-end {
+    margin: 0 90px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container-start,
+  .container {
+    width: 140px;
+    height: 140px;
+  }
+
+  .container-one-line,
+  .container-two-line,
+  .container-three-line {
+    line-height: 140px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1899.98px) {
+  .container-start,
+  .container {
+    width: 140px;
+    height: 140px;
+  }
+
+  .container-one-line,
+  .container-two-line,
+  .container-three-line {
+    line-height: 140px;
+  }
+
+  .wrapper-start {
+    margin: 0 90px;
   }
 }

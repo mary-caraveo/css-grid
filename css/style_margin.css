@@ -7,7 +7,7 @@
   justify-items: center;
 }
 .wrapper-content {
-  justify-content: center;
+  margin: 0 6%;
 }
 
 .button_submit {
@@ -38,13 +38,13 @@
   color: white;
   float: left;
   padding-top: 75px;
-  margin: 0 4%;
+  margin: 0 55px;
 }
 
 .container-margin-start {
-  background: #b21f66;
-  width: 180px;
-  height: 180px;
+  background: #ff8474;
+  width: 160px;
+  height: 160px;
   border-radius: 10px;
 }
 
@@ -60,7 +60,7 @@
 .element-one-margin-start,
 .element-two-margin-start,
 .element-three-margin-start {
-  background: #50d890;
+  background: #ff577f;
 }
 
 .element-four-margin-start,
@@ -88,40 +88,40 @@
 }
 
 .container-margin-end {
-  background: #fe9801;
-  width: 180px;
-  height: 180px;
+  background: #ff7171;
+  width: 160px;
+  height: 160px;
   border-radius: 10px;
 }
 
 .element-one-margin {
-  background: #8b2f97;
+  background: #f14668;
   margin: 0;
 }
 
 .element-two-margin {
-  background: #8b2f97;
-  margin: 60px 0;
+  background: #f14668;
+  margin: 50px 0;
 }
 
 .element-three-margin {
-  background: #8b2f97;
-  margin: 120px 0;
+  background: #f14668;
+  margin: 100px 0;
 }
 
 .element-four-margin {
-  background: #0c9463;
-  margin: 0 auto;
+  background: #b34180;
+  /* margin: 0 auto; */
 }
 
 .element-five-margin {
-  background: #0c9463;
-  margin: 60px auto;
+  background: #b34180;
+  margin: 50px auto;
 }
 
 .element-six-margin {
-  background: #0c9463;
-  margin: 120px auto;
+  background: #b34180;
+  margin: 100px auto;
 }
 
 .element-seven-margin {
@@ -131,12 +131,12 @@
 
 .element-eight-margin {
   background: #eb4d55;
-  margin: 60px 0 0 auto;
+  margin: 50px 0 0 auto;
 }
 
 .element-nine-margin {
   background: #eb4d55;
-  margin: 120px 0 0 auto;
+  margin: 100px 0 0 auto;
 }
 
 @media (max-width: 575.98px) {
@@ -161,12 +161,18 @@
   .wrapper-end {
     padding-top: 25px;
     padding-bottom: 2em;
+    margin: 15px 55px;
   }
 
   .container-margin-start,
   .container-margin-end {
-    width: 110px;
-    height: 110px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .wrapper-start,
+  .wrapper-end {
+    margin: 0 80px;
   }
 
   .element {
@@ -176,29 +182,66 @@
   }
 
   .element-two-margin {
-    margin: 30px 0;
+    margin: 25px 0;
   }
 
   .element-three-margin {
-    margin: 60px 0;
+    margin: 50px 0;
   }
 
   .element-five-margin {
-    margin: 30px auto;
+    margin: 25px auto;
   }
 
   .element-six-margin {
-    margin: 60px auto;
+    margin: 50px auto;
   }
 
   .element-eight-margin {
-    margin: 30px 0 0 auto;
+    margin: 25px 0 0 auto;
   }
 
   .element-nine-margin {
-    margin: 60px 0 0 auto;
+    margin: 50px 0 0 auto;
   }
 }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container-margin-start,
+  .container-margin-end {
+    width: 140px;
+    height: 140px;
+  }
+
+  .wrapper-end {
+    margin: 0 55px;
+  }
+
+  .element-two-margin {
+    margin: 40px 0;
+  }
+
+  .element-three-margin {
+    margin: 80px 0;
+  }
+
+  .element-five-margin {
+    margin: 40px auto;
+  }
+
+  .element-six-margin {
+    margin: 80px auto;
+  }
+
+  .element-eight-margin {
+    margin: 40px 0 0 auto;
+  }
+
+  .element-nine-margin {
+    margin: 80px 0 0 auto;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   .container_menu {
     grid-template-columns: repeat(3, 1fr);
@@ -208,6 +251,10 @@
 
   .button_submit {
     width: 220px;
+  }
+
+  .wrapper-end {
+    margin: 0 55px;
   }
 }
 
@@ -220,5 +267,49 @@
 
   .button_submit {
     width: 300px;
+  }
+
+  .container-margin-start,
+  .container-margin-end {
+    width: 140px;
+    height: 140px;
+  }
+
+  .wrapper-start {
+    margin: 0;
+  }
+
+  .wrapper-end {
+    margin: 0 2%;
+  }
+
+  .element-two-margin {
+    margin: 40px 0;
+  }
+
+  .element-three-margin {
+    margin: 80px 0;
+  }
+
+  .element-five-margin {
+    margin: 40px auto;
+  }
+
+  .element-six-margin {
+    margin: 80px auto;
+  }
+
+  .element-eight-margin {
+    margin: 40px 0 0 auto;
+  }
+
+  .element-nine-margin {
+    margin: 80px 0 0 auto;
+  }
+}
+
+@media (min-width: 1900px) {
+  .wrapper-content {
+    margin: 0 18%;
   }
 }
