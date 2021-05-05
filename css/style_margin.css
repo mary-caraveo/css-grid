@@ -42,7 +42,7 @@
 }
 
 .container-margin-start {
-  background: #ff8474;
+  background: #9f5f80;
   width: 160px;
   height: 160px;
   border-radius: 10px;
@@ -84,7 +84,7 @@
   padding-top: 75px;
   float: left;
   color: white;
-  margin: 0 4%;
+  margin: 0 55px;
 }
 
 .container-margin-end {
@@ -156,23 +156,20 @@
     justify-items: center;
     font-size: 14px;
     float: none;
+    margin: 0 90px;
   }
 
   .wrapper-end {
     padding-top: 25px;
     padding-bottom: 2em;
     margin: 15px 55px;
+    margin: 0 90px;
   }
 
   .container-margin-start,
   .container-margin-end {
     width: 100px;
     height: 100px;
-  }
-
-  .wrapper-start,
-  .wrapper-end {
-    margin: 0 80px;
   }
 
   .element {
@@ -213,8 +210,9 @@
     height: 140px;
   }
 
+  .wrapper-start,
   .wrapper-end {
-    margin: 0 55px;
+    margin: 0 90px;
   }
 
   .element-two-margin {
@@ -252,9 +250,9 @@
   .button_submit {
     width: 220px;
   }
-
+  .wrapper-start,
   .wrapper-end {
-    margin: 0 55px;
+    margin: 0 100px;
   }
 }
 
