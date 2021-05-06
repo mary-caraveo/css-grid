@@ -5,7 +5,7 @@
 
 .block {
   display: block;
-  background: rebeccapurple;
+  background: #5aa897;
   color: white;
   text-align: center;
   border-radius: 10px;
@@ -15,7 +15,7 @@
 
 .grid {
   display: grid;
-  background: fuchsia;
+  background: #ff8474;
   color: white;
   text-align: center;
   border-radius: 10px;
@@ -25,7 +25,7 @@
 
 .flex {
   display: flex;
-  background: goldenrod;
+  background: #f7a440;
   color: white;
   justify-content: center;
   border-radius: 10px;
@@ -35,7 +35,7 @@
 /* ------- */
 .block_one {
   display: inline;
-  background: rebeccapurple;
+  background: #5aa897;
   color: white;
   margin: 15px;
   border-radius: 10px;
@@ -44,7 +44,7 @@
 
 .grid_two {
   display: inline-block;
-  background: fuchsia;
+  background: #ff8474;
   color: white;
   margin: 15px;
   border-radius: 10px;
@@ -53,7 +53,7 @@
 
 .flex_three {
   display: inline-flex;
-  background: goldenrod;
+  background: #f7a440;
   color: white;
   margin: 15px;
   border-radius: 10px;

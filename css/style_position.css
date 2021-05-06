@@ -10,13 +10,13 @@
 }
 
 .wrapper-content {
-  margin: 0 15%;
+  margin: 0 18%;
 }
 
 .container-position {
   background: #28df99;
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   position: relative;
   border-radius: 10px;
 }
@@ -64,8 +64,8 @@
 
 .container-position-end {
   background: #ff8585;
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   position: relative;
   border-radius: 10px;
 }
@@ -163,17 +163,20 @@
     font-size: 14px;
     float: none;
     padding-top: 45px;
-    margin: 0 35px;
   }
 
   .wrapper-content {
-    margin: 0;
+    margin: 0 12%;
   }
 
   .container-position,
   .container-position-end {
     width: 100px;
     height: 100px;
+  }
+
+  .container-position {
+    position: initial;
   }
 
   .element {
@@ -185,16 +188,145 @@
     width: 50px;
     height: 50px;
   }
+
+  .element-position-1,
+  .element-position-2,
+  .element-position-3,
+  .element-position-4,
+  .element-position-5,
+  .element-position-6,
+  .element-position-7,
+  .element-position-8,
+  .element-position-9 {
+    position: initial;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .wrapper-content {
+    margin: 0 11%;
+  }
+
+  .container-position {
+    position: initial;
+    width: 140px;
+    height: 140px;
+  }
+
+  .container-position-end {
+    width: 140px;
+    height: 140px;
+  }
+  .element-position {
+    width: 50px;
+    height: 50px;
+  }
+
+  .element-position-1,
+  .element-position-2,
+  .element-position-3,
+  .element-position-4,
+  .element-position-5,
+  .element-position-6,
+  .element-position-7,
+  .element-position-8,
+  .element-position-9 {
+    position: initial;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .wrapper-content {
+    margin: 0 12%;
+  }
+
+  .container-position {
+    position: initial;
+  }
+
+  .element-position-1,
+  .element-position-2,
+  .element-position-3,
+  .element-position-4,
+  .element-position-5,
+  .element-position-6,
+  .element-position-7,
+  .element-position-8,
+  .element-position-9 {
+    position: initial;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .container-position,
+  .container-position-end {
+    width: 140px;
+    height: 140px;
+  }
+
+  .wrapper-content {
+    margin: 0 6%;
+  }
+
+  .container-position {
+    position: initial;
+  }
+
+  .element-position-1,
+  .element-position-2,
+  .element-position-3,
+  .element-position-4,
+  .element-position-5,
+  .element-position-6,
+  .element-position-7,
+  .element-position-8,
+  .element-position-9 {
+    position: initial;
+  }
+
+  .wrapper {
+    margin: 0;
+  }
+  .wrapper-end {
+    margin: 0 2%;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1899.98px) {
+  .wrapper {
+    margin: 0;
+  }
+
+  .container-position,
+  .container-position-end {
+    width: 140px;
+    height: 140px;
+  }
+
+  .wrapper-content {
+    margin: 0 14%;
+  }
+
+  .element,
+  .element-position {
+    font-size: 14px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .container-position {
+    position: initial;
+  }
+
+  .element-position-1,
+  .element-position-2,
+  .element-position-3,
+  .element-position-4,
+  .element-position-5,
+  .element-position-6,
+  .element-position-7,
+  .element-position-8,
+  .element-position-9 {
+    position: initial;
+  }
 }

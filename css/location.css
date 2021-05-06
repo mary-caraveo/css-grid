@@ -65,7 +65,7 @@ body {
 }
 
 .item-one {
-  background-image: url("../src/orange.png");
+  background-image: url("../src/img/orange.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
@@ -73,7 +73,7 @@ body {
 }
 
 .item-two {
-  background-image: url("../src/pink.jpg");
+  background-image: url("../src/img/pink.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
@@ -81,7 +81,7 @@ body {
 }
 
 .item-three {
-  background-image: url("../src/heart.png");
+  background-image: url("../src/img/heart.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;

@@ -186,6 +186,10 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1899.98px) {
+  .wrapper-content {
+    margin: 0 14%;
+  }
+
   .container-start,
   .container {
     width: 140px;
@@ -199,6 +203,12 @@
   }
 
   .wrapper-start {
-    margin: 0 90px;
+    margin: 0;
+  }
+
+  .element {
+    font-size: 14px;
+    width: 50px;
+    height: 50px;
   }
 }

@@ -111,7 +111,7 @@
 
 .element-four-margin {
   background: #b34180;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 .element-five-margin {
@@ -303,6 +303,53 @@
 
   .element-nine-margin {
     margin: 80px 0 0 auto;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1899.98px) {
+  .wrapper-content {
+    margin: 0 10%;
+  }
+
+  .wrapper-start,
+  .wrapper-end {
+    margin: 0 30px;
+  }
+
+  .container-margin-end,
+  .container-margin-start {
+    width: 140px;
+    height: 140px;
+  }
+
+  .element {
+    font-size: 14px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .element-two-margin {
+    margin: 45px 0;
+  }
+
+  .element-three-margin {
+    margin: 90px 0;
+  }
+
+  .element-five-margin {
+    margin: 45px auto;
+  }
+
+  .element-six-margin {
+    margin: 90px auto;
+  }
+
+  .element-eight-margin {
+    margin: 45px 0 0 auto;
+  }
+
+  .element-nine-margin {
+    margin: 90px 0 0 auto;
   }
 }
 
