@@ -20,15 +20,15 @@
 }
 
 .element-start-two {
-  background: rgb(236, 15, 52);
+  background: #ff7171;
 }
 
 .element-start-three {
-  background: rgb(32, 233, 32);
+  background: #d97642;
 }
 
 .container {
-  background: rgb(60, 201, 187);
+  background: #e28f83;
   border: 1px solid white;
   width: 180px;
   height: 180px;
@@ -51,22 +51,22 @@
 /* table cell end */
 
 .element-one {
-  background: rgb(240, 34, 62);
+  background: #926e6f;
   display: inline-block;
 }
 
 .element-two {
-  background: rgb(74, 221, 111);
+  background: #9f5f80;
   display: inline-block;
 }
 
 .element-three {
-  background: rgb(233, 76, 14);
+  background: #b67162;
   display: inline-block;
 }
 
 .container-end {
-  background: rgb(197, 72, 255);
+  background: #da7f8f;
   border: 1px solid white;
   width: 180px;
   height: 180px;
@@ -130,11 +130,53 @@
 
 @media (max-width: 575.98px) {
   .container_main {
-    margin: 0;
+    margin: 0 10px;
   }
 
   .container,
   .container-end {
     height: 120px;
+  }
+
+  .element {
+    padding-top: 15px;
+    font-size: 0;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container_main {
+    margin: 0 10px;
+  }
+
+  .element {
+    font-size: 14px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container_main {
+    margin: 0 10px;
+  }
+
+  .element {
+    font-size: 14px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container_main {
+    margin: 0 40px;
+  }
+  .element {
+    font-size: 14px;
+    width: 50px;
+    height: 50px;
   }
 }
