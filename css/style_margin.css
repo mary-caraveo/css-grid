@@ -7,7 +7,11 @@
   justify-items: center;
 }
 .wrapper-content {
-  margin: 0 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 4rem;
 }
 
 .button_submit {
@@ -37,8 +41,6 @@
   font-family: "Lato", sans-serif;
   color: white;
   float: left;
-  padding-top: 75px;
-  margin: 0 55px;
 }
 
 .container-margin-start {
@@ -81,10 +83,8 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 5px;
   font-family: "Lato", sans-serif;
-  padding-top: 75px;
   float: left;
   color: white;
-  margin: 0 55px;
 }
 
 .container-margin-end {
@@ -140,33 +140,19 @@
 }
 
 @media (max-width: 575.98px) {
-  .container_menu {
-    grid-template-columns: 1fr;
-    justify-items: center;
-    margin: 0 0 30px 0;
+  .wrapper-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    font-size: small;
+    padding: 6rem 0 1rem 0;
   }
 
-  .button_submit {
-    width: 40vh;
+  .container-margin-start {
+    width: 100px;
+    height: 100px;
   }
 
-  .wrapper-start,
-  .wrapper-end {
-    justify-content: center;
-    justify-items: center;
-    font-size: 14px;
-    float: none;
-    margin: 0 90px;
-  }
-
-  .wrapper-end {
-    padding-top: 25px;
-    padding-bottom: 2em;
-    margin: 15px 55px;
-    margin: 0 90px;
-  }
-
-  .container-margin-start,
   .container-margin-end {
     width: 100px;
     height: 100px;
@@ -175,11 +161,10 @@
   .element {
     width: 50px;
     height: 50px;
-    padding-top: 5px;
   }
 
   .element-two-margin {
-    margin: 25px 0;
+    margin: 26px 0;
   }
 
   .element-three-margin {
@@ -187,7 +172,7 @@
   }
 
   .element-five-margin {
-    margin: 25px auto;
+    margin: 26px auto;
   }
 
   .element-six-margin {
@@ -195,166 +180,10 @@
   }
 
   .element-eight-margin {
-    margin: 25px 0 0 auto;
+    margin: 26px 0 0 auto;
   }
 
   .element-nine-margin {
     margin: 50px 0 0 auto;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .container-margin-start,
-  .container-margin-end {
-    width: 140px;
-    height: 140px;
-  }
-
-  .wrapper-start,
-  .wrapper-end {
-    margin: 0 90px;
-  }
-
-  .element-two-margin {
-    margin: 40px 0;
-  }
-
-  .element-three-margin {
-    margin: 80px 0;
-  }
-
-  .element-five-margin {
-    margin: 40px auto;
-  }
-
-  .element-six-margin {
-    margin: 80px auto;
-  }
-
-  .element-eight-margin {
-    margin: 40px 0 0 auto;
-  }
-
-  .element-nine-margin {
-    margin: 80px 0 0 auto;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .container_menu {
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0 20px;
-    justify-items: center;
-  }
-
-  .button_submit {
-    width: 220px;
-  }
-  .wrapper-start,
-  .wrapper-end {
-    margin: 0 100px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .container_menu {
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0 30px;
-    justify-items: center;
-  }
-
-  .button_submit {
-    width: 300px;
-  }
-
-  .container-margin-start,
-  .container-margin-end {
-    width: 140px;
-    height: 140px;
-  }
-
-  .wrapper-start {
-    margin: 0;
-  }
-
-  .wrapper-end {
-    margin: 0 2%;
-  }
-
-  .element-two-margin {
-    margin: 40px 0;
-  }
-
-  .element-three-margin {
-    margin: 80px 0;
-  }
-
-  .element-five-margin {
-    margin: 40px auto;
-  }
-
-  .element-six-margin {
-    margin: 80px auto;
-  }
-
-  .element-eight-margin {
-    margin: 40px 0 0 auto;
-  }
-
-  .element-nine-margin {
-    margin: 80px 0 0 auto;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1899.98px) {
-  .wrapper-content {
-    margin: 0 10%;
-  }
-
-  .wrapper-start,
-  .wrapper-end {
-    margin: 0 30px;
-  }
-
-  .container-margin-end,
-  .container-margin-start {
-    width: 140px;
-    height: 140px;
-  }
-
-  .element {
-    font-size: 14px;
-    width: 50px;
-    height: 50px;
-  }
-
-  .element-two-margin {
-    margin: 45px 0;
-  }
-
-  .element-three-margin {
-    margin: 90px 0;
-  }
-
-  .element-five-margin {
-    margin: 45px auto;
-  }
-
-  .element-six-margin {
-    margin: 90px auto;
-  }
-
-  .element-eight-margin {
-    margin: 45px 0 0 auto;
-  }
-
-  .element-nine-margin {
-    margin: 90px 0 0 auto;
-  }
-}
-
-@media (min-width: 1900px) {
-  .wrapper-content {
-    margin: 0 18%;
   }
 }
