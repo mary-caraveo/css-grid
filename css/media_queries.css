@@ -1,0 +1,140 @@
+@media (max-width: 575.98px) {
+  .wrapper-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    font-size: small;
+    padding: 6rem 0 1rem 0;
+  }
+
+  .container-margin-start {
+    width: 100px;
+    height: 100px;
+  }
+
+  .container-margin-end {
+    width: 100px;
+    height: 100px;
+  }
+
+  .element {
+    width: 50px;
+    height: 50px;
+  }
+
+  .element-two-margin {
+    margin: 25px 0;
+  }
+
+  .element-three-margin {
+    margin: 50px 0 0 0;
+  }
+
+  .element-five-margin {
+    margin: 25px auto;
+  }
+
+  .element-six-margin {
+    margin: 50px auto 0 auto;
+  }
+
+  .element-eight-margin {
+    margin: 26px 0 0 auto;
+  }
+
+  .element-nine-margin {
+    margin: 50px 0 0 auto;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container-margin-start {
+    width: 100px;
+    height: 100px;
+  }
+
+  .container-margin-end {
+    width: 100px;
+    height: 100px;
+  }
+
+  .element {
+    font-size: 12px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .element-two-margin {
+    margin: 25px 0;
+  }
+
+  .element-three-margin {
+    margin: 50px 0 0 0;
+  }
+
+  .element-five-margin {
+    margin: 25px auto;
+  }
+
+  .element-six-margin {
+    margin: 50px auto 0 auto;
+  }
+
+  .element-eight-margin {
+    margin: 25px 0 25px auto;
+  }
+
+  .element-nine-margin {
+    margin: 50px 0 0 auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .wrapper-content {
+    display: grid;
+    flex-direction: column;
+    padding: 6rem 0 2rem 0;
+    padding-top: 8rem;
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container-margin-start {
+    width: 130px;
+    height: 130px;
+  }
+
+  .container-margin-end {
+    width: 130px;
+    height: 130px;
+  }
+
+  .element-two-margin {
+    margin: 35px 0;
+  }
+
+  .element-three-margin {
+    margin: 70px 0 0 0;
+  }
+
+  .element-four-margin {
+    margin: 0 auto;
+  }
+
+  .element-five-margin {
+    margin: 35px auto;
+  }
+
+  .element-six-margin {
+    margin: 70px auto 0 auto;
+  }
+
+  .element-eight-margin {
+    margin: 35px 0 0 auto;
+  }
+
+  .element-nine-margin {
+    margin: 70px 0 0 auto;
+  }
+}

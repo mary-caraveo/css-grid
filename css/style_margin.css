@@ -6,6 +6,7 @@
   margin: 0 100px;
   justify-items: center;
 }
+
 .wrapper-content {
   display: flex;
   justify-content: center;
@@ -137,53 +138,4 @@
 .element-nine-margin {
   background: #eb4d55;
   margin: 100px 0 0 auto;
-}
-
-@media (max-width: 575.98px) {
-  .wrapper-content {
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 2rem;
-    font-size: small;
-    padding: 6rem 0 1rem 0;
-  }
-
-  .container-margin-start {
-    width: 100px;
-    height: 100px;
-  }
-
-  .container-margin-end {
-    width: 100px;
-    height: 100px;
-  }
-
-  .element {
-    width: 50px;
-    height: 50px;
-  }
-
-  .element-two-margin {
-    margin: 26px 0;
-  }
-
-  .element-three-margin {
-    margin: 50px 0;
-  }
-
-  .element-five-margin {
-    margin: 26px auto;
-  }
-
-  .element-six-margin {
-    margin: 50px auto;
-  }
-
-  .element-eight-margin {
-    margin: 26px 0 0 auto;
-  }
-
-  .element-nine-margin {
-    margin: 50px 0 0 auto;
-  }
 }
