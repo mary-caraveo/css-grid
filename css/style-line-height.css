@@ -1,4 +1,21 @@
+.wrapper-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 4rem;
+}
+
 /* Grid line-height start*/
+.wrapper-start {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  font-family: "Lato", sans-serif;
+  color: white;
+  float: left;
+}
+
 .container-start {
   background: #ffce89;
   width: 160px;
@@ -8,6 +25,15 @@
 
 .container-one {
   text-align: left;
+}
+
+.element {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 
 .element-one-line-height,
@@ -40,6 +66,15 @@
 }
 
 /* Grid line-height end*/
+.wrapper-end {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  font-family: "Lato", sans-serif;
+  float: left;
+  color: white;
+}
+
 .container {
   background: #e05297;
   width: 160px;
@@ -89,7 +124,7 @@
   background: #cf7500;
   display: inline-block;
   line-height: 20px;
-  vertical-align: baseline;
+  vertical-align: middle;
 }
 
 .element-six-line {
@@ -123,92 +158,4 @@
   display: inline-block;
   line-height: 20px;
   vertical-align: bottom;
-}
-
-@media (max-width: 575.98px) {
-  .container,
-  .container-start {
-    width: 100px;
-    height: 100px;
-  }
-
-  .container-one-line,
-  .container-two-line,
-  .container-three-line {
-    line-height: 100px;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .wrapper-start,
-  .wrapper-end {
-    margin: 0 100px;
-  }
-
-  .container-start,
-  .container {
-    width: 140px;
-    height: 140px;
-  }
-
-  .container-one-line,
-  .container-two-line,
-  .container-three-line {
-    line-height: 140px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .container-start,
-  .container {
-    width: 160px;
-    height: 160px;
-  }
-
-  .wrapper-start,
-  .wrapper-end {
-    margin: 0 90px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .container-start,
-  .container {
-    width: 140px;
-    height: 140px;
-  }
-
-  .container-one-line,
-  .container-two-line,
-  .container-three-line {
-    line-height: 140px;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1899.98px) {
-  .wrapper-content {
-    margin: 0 14%;
-  }
-
-  .container-start,
-  .container {
-    width: 140px;
-    height: 140px;
-  }
-
-  .container-one-line,
-  .container-two-line,
-  .container-three-line {
-    line-height: 140px;
-  }
-
-  .wrapper-start {
-    margin: 0;
-  }
-
-  .element {
-    font-size: 14px;
-    width: 50px;
-    height: 50px;
-  }
 }
