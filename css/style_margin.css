@@ -1,37 +1,9 @@
-.container_menu {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
-  padding-top: 75px;
-  margin: 0 100px;
-  justify-items: center;
-}
-
 .wrapper-content {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   gap: 4rem;
-}
-
-.button_submit {
-  background: #9b3675;
-  width: 250px;
-  height: 50px;
-  outline: none;
-  border-radius: 20px;
-  border: none;
-  float: left;
-  color: white;
-  font-size: 16px;
-  box-shadow: 5px 10px 18px #822659;
-}
-
-.button_submit:hover {
-  background-color: #e36bae;
-  transition: color 0.2s 0.05s ease;
-  cursor: pointer;
 }
 
 /* Grid margin start */
