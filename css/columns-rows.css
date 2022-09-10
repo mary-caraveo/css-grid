@@ -7,7 +7,7 @@
 
 .container_item {
   display: inline-grid;
-  grid-template: repeat(3, 60px) / repeat(3, 60px);
+  grid-template: repeat(3, 100px) / repeat(3, 100px);
   background: rgb(255, 239, 12);
   border-radius: 10px;
 }
