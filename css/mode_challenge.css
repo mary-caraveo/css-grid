@@ -1,9 +1,9 @@
 .container {
   display: flex;
-  padding-top: 75px;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 75px 25px;
 }
 
 .card {
@@ -58,17 +58,4 @@
 .card__main {
   background: #29ebc7;
   padding: 20px;
-}
-
-@media (max-width: 575.98px) {
-  .container {
-    display: grid;
-    gap: 15px;
-  }
-  .card,
-  .card_alignments,
-  .card_alignments_three,
-  .card_alignments_four {
-    margin: 20px;
-  }
 }

@@ -1,0 +1,13 @@
+@media (max-width: 575.98px) {
+  .container {
+    display: grid;
+    padding: 75px 0;
+  }
+
+  .card,
+  .card_alignments,
+  .card_alignments_three,
+  .card_alignments_four {
+    margin: 20px;
+  }
+}
