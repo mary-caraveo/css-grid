@@ -1,18 +1,18 @@
 .container {
   display: flex;
-  padding-top: 75px;
+  padding-top: 50px;
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: 0 10px;
 }
 
 .items {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background: papayawhip;
-  width: 300px;
-  height: 300px;
-  margin: 0 100px;
+  width: 400px;
+  height: 400px;
 }
 
 .item:nth-child(1) {
@@ -23,11 +23,4 @@
 
 .item:not(:nth-child(1)) {
   background: turquoise;
-}
-
-@media (max-width: 575.98px) {
-  .items {
-    width: 400px;
-    margin: 0 10px;
-  }
 }
