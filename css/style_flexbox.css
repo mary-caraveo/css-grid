@@ -1,16 +1,18 @@
+.wrapper-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
+  gap: 2rem;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
   font-family: "Lato", sans-serif;
   float: left;
-  padding-top: 75px;
-  margin: 0 55px;
   color: white;
-}
-
-.wrapper-content {
-  margin: 0 18%;
 }
 
 .container {
@@ -41,17 +43,6 @@
   background: #b67162;
 }
 
-.container-one,
-.container-two,
-.container-three,
-.container-four,
-.container-five,
-.container-six,
-.container-seven,
-.container-eight,
-.container-nine {
-  display: flex;
-}
 /* Flexbox END */
 .wrapper-end {
   display: grid;
@@ -59,8 +50,6 @@
   grid-gap: 5px;
   font-family: "Lato", sans-serif;
   float: left;
-  padding-top: 75px;
-  margin: 0 55px;
   color: white;
 }
 
@@ -135,110 +124,4 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-}
-
-@media (max-width: 575.98px) {
-  .wrapper-content {
-    margin: 0 22%;
-  }
-
-  .wrapper,
-  .wrapper-end {
-    justify-content: center;
-    justify-items: center;
-    margin: 0;
-    float: none;
-  }
-
-  .wrapper-end {
-    padding-top: 25px;
-  }
-
-  .container,
-  .container-end {
-    width: 100px;
-    height: 100px;
-  }
-
-  .element {
-    font-size: 14px;
-    width: 50px;
-    height: 50px;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .wrapper,
-  .wrapper-end {
-    justify-content: center;
-    justify-items: center;
-    font-size: 14px;
-    padding-top: 75px;
-    margin: 0;
-    float: none;
-  }
-
-  .wrapper-content {
-    margin: 0 22%;
-  }
-
-  .container,
-  .container-end {
-    width: 140px;
-    height: 140px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .wrapper-content {
-    margin: 0 10%;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .wrapper,
-  .wrapper-end {
-    margin: 0 30px;
-  }
-
-  .wrapper-end {
-    float: none;
-  }
-
-  .wrapper-content {
-    margin: 0 3%;
-  }
-
-  .container,
-  .container-end {
-    width: 140px;
-    height: 140px;
-  }
-
-  .element {
-    font-size: 14px;
-    width: 50px;
-    height: 50px;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1899.98px) {
-  .wrapper-end {
-    margin: 0;
-  }
-  .wrapper-content {
-    margin: 0 12%;
-  }
-
-  .container,
-  .container-end {
-    width: 140px;
-    height: 140px;
-  }
-
-  .element {
-    width: 50px;
-    height: 50px;
-    font-size: 14px;
-  }
 }
