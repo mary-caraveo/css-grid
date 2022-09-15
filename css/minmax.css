@@ -1,13 +1,12 @@
 .container_main {
   text-align: center;
-  padding: 3rem 2rem;
+  padding: 3rem 10rem;
 }
 
 .container {
   background: papayawhip;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  /* grid-template-columns: repeat(3, minmax(200px, 300px)); */
 }
 
 .item {
@@ -41,4 +40,11 @@
   border: 4px solid hotpink;
   width: 100%;
   height: 100px;
+}
+
+@media (max-width: 575.98px) {
+  .container_main {
+    text-align: center;
+    padding: 3rem 2rem;
+  }
 }
