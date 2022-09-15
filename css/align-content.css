@@ -103,7 +103,7 @@
   .grid {
     grid-template-columns: 1fr;
     margin: 0 15px;
-    padding-bottom: 1em;
+    padding: 3rem 0;
   }
 
   .grid-container {

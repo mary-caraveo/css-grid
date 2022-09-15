@@ -1,7 +1,7 @@
 @media (max-width: 575.98px) {
   .container {
     display: grid;
-    padding: 75px 0;
+    padding: 3rem 0;
   }
 
   .card,

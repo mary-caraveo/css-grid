@@ -2,9 +2,9 @@
   display: grid;
   grid-auto-columns: 90px;
   grid-auto-rows: 90px;
-  gap: 10px;
-  padding-top: 75px;
   justify-content: center;
+  padding: 3rem 2rem;
+  gap: 10px;
 }
 
 .item-a {

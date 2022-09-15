@@ -4,7 +4,7 @@
     justify-content: flex-start;
     gap: 2rem;
     font-size: small;
-    padding: 6rem 0 1rem 0;
+    padding: 3rem 0;
   }
 
   .container-margin-start {
@@ -93,8 +93,7 @@
   .wrapper-content {
     display: grid;
     flex-direction: column;
-    padding: 6rem 0 2rem 0;
-    padding-top: 8rem;
+    padding: 3rem 0 2rem 0;
     height: auto;
   }
 }
