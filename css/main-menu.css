@@ -1,10 +1,10 @@
 .container_menu {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-  padding: 50px;
   justify-content: center;
   align-content: center;
+  padding: 3rem;
+  gap: 2rem;
 }
 
 .button_submit {
@@ -15,7 +15,9 @@
   border: none;
   color: white;
   font-size: 16px;
+  -webkit-appearance: none;
   box-shadow: 9px 13px 3px 0px #f8b400;
+  -webkit-box-shadow: 9px 13px 3px 0px #f8b400;
 }
 
 .button_submit:hover {
