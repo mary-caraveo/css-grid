@@ -1,13 +1,13 @@
 .container {
   display: flex;
-  padding-top: 75px;
+  padding: 3rem 0;
   justify-content: center;
   align-items: center;
 }
 
 .container_item {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   background: tomato;
   display: grid;
   place-items: center;
