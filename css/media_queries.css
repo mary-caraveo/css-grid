@@ -2,7 +2,6 @@
   .wrapper-content {
     flex-direction: column;
     justify-content: flex-start;
-    gap: 2rem;
     font-size: small;
     padding: 3rem 0;
   }

@@ -2,9 +2,9 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  gap: 10px;
-  padding-top: 4rem;
   justify-items: center;
+  padding: 3rem 10rem;
+  gap: 2rem;
 }
 
 .grid-container {
@@ -90,7 +90,6 @@
 @media (max-width: 575.98px) {
   .grid {
     grid-template-columns: 1fr;
-    margin: 0 15px;
     padding: 3rem 0;
   }
 
@@ -113,5 +112,17 @@
     width: 280px;
     height: 280px;
     gap: 40px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .grid {
+    padding: 3rem 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .grid {
+    padding: 3rem 2rem;
   }
 }
