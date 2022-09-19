@@ -40,11 +40,21 @@
   position: absolute;
 }
 
+.container-two {
+  display: flex;
+  place-content: center;
+}
+
 .element-position-4,
 .element-position-5,
 .element-position-6 {
   background: #944e6c;
   position: absolute;
+}
+
+.container-three {
+  display: flex;
+  justify-content: right;
 }
 
 .element-position-7,
@@ -192,5 +202,13 @@
     flex-direction: column;
     padding: 3rem 0;
     height: auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container-position,
+  .container-position-end {
+    width: 140px;
+    height: 140px;
   }
 }

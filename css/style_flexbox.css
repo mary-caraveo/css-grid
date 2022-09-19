@@ -35,8 +35,18 @@
   background: #7b113a;
 }
 
+.container-two {
+  display: flex;
+  place-content: center;
+}
+
 .element-two {
   background: #ff7171;
+}
+
+.container-three {
+  display: flex;
+  justify-content: right;
 }
 
 .element-three {

@@ -38,10 +38,20 @@
   background: #ff577f;
 }
 
+.container-two {
+  display: flex;
+  place-content: center;
+}
+
 .element-four-margin-start,
 .element-five-margin-start,
 .element-six-margin-start {
   background: #f8b400;
+}
+
+.container-three {
+  display: flex;
+  justify-content: right;
 }
 
 .element-seven-margin-start,
