@@ -3,11 +3,25 @@
     display: grid;
     padding: 3rem 0;
   }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   .card,
   .card_alignments,
   .card_alignments_three,
   .card_alignments_four {
-    margin: 20px;
+    width: auto;
   }
 }
