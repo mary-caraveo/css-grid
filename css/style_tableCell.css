@@ -1,14 +1,7 @@
 .container_main {
-  display: flex;
-  justify-content: center;
-  height: 100vh;
+  padding: 3rem 2rem 0 2rem;
 }
 
-.content {
-  padding: 6rem 2rem 0 2rem;
-}
-
-/* table cell start */
 .element {
   width: 60px;
   height: 60px;
@@ -18,19 +11,24 @@
   border-radius: 10px;
 }
 
+/* table cell start */
 .element-start-one {
+  display: inline-block;
   background: rgb(243, 152, 7);
 }
 
 .element-start-two {
+  display: inline-block;
   background: #ff7171;
 }
 
 .element-start-three {
+  display: inline-block;
   background: #d97642;
 }
 
 .container {
+  display: table-cell;
   background: #e28f83;
   border: 1px solid white;
   width: 180px;
@@ -41,14 +39,23 @@
 
 .container-start-one,
 .container-start-two,
-.container-start-three,
+.container-start-three {
+  text-align: left;
+  vertical-align: top;
+}
+
 .container-start-four,
 .container-start-five,
-.container-start-six,
+.container-start-six {
+  text-align: center;
+  vertical-align: top;
+}
+
 .container-start-seven,
 .container-start-eight,
 .container-start-nine {
-  display: table-cell;
+  text-align: right;
+  vertical-align: top;
 }
 
 /* table cell end */
@@ -69,6 +76,7 @@
 }
 
 .container-end {
+  display: table-cell;
   background: #da7f8f;
   border: 1px solid white;
   width: 180px;
@@ -78,55 +86,46 @@
 }
 
 .container-one {
-  display: table-cell;
   text-align: left;
   vertical-align: top;
 }
 
 .container-two {
-  display: table-cell;
   text-align: left;
   vertical-align: middle;
 }
 
 .container-three {
-  display: table-cell;
   text-align: left;
   vertical-align: bottom;
 }
 
 .container-four {
-  display: table-cell;
   text-align: center;
   vertical-align: top;
 }
 
 .container-five {
-  display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
 .container-six {
-  display: table-cell;
   text-align: center;
   vertical-align: bottom;
 }
 
 .container-seven {
-  display: table-cell;
   text-align: right;
   vertical-align: top;
 }
 
 .container-eight {
-  display: table-cell;
   text-align: right;
   vertical-align: middle;
 }
 
 .container-nine {
-  display: table-cell;
   text-align: right;
   vertical-align: bottom;
 }
