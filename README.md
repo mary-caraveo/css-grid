@@ -1,3 +1,3 @@
-# Learning CSS Grid Layout
+# Learn CSS grid layout
 
 ![overview](./src/img/main.png)
