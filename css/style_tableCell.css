@@ -1,4 +1,7 @@
 .container_main {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
   padding: 3rem 2rem 0 2rem;
 }
 
