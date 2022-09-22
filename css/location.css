@@ -1,9 +1,9 @@
 .container_main {
   display: block;
-  padding: 3rem 0;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 2rem 0;
 }
 
 .container {
